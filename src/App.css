@@ -59,13 +59,13 @@
 	}
 }
 
-.background-container{
+/* .background-container{
 	position: fixed;
 	top: 0;
 	left:0;
 	bottom: 0;
 	right: 0;
-}
+} */
 
 .stars {
  background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
@@ -125,4 +125,25 @@
   top: 0;
   left: 0;
 }
+
+.loader-container {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  position: relative; /* ajoutez cette ligne pour que z-index fonctionne */
+  z-index: 1000; /* valeur de z-index supérieure à celle de .background-container */
+}
+
+.loader-container.fade-out {
+  opacity: 0;
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999; /* valeur de z-index inférieure à celle de .loader-container */
+}
+
 

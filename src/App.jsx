@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Loader from './assets/component/loader';
 import './App.css';
+import Header from './assets/component/header';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,9 +26,12 @@ function App() {
         <div className="twinkling"></div>
         <div className="clouds"></div>
         {!loading && (
-          <div className="contenu">
-            <img className="logo" src="/unnamed.jpg" alt="Avatar" />
-          </div>
+          <>
+            <Header />
+            <div className="contenu">
+              <img className="logo" src="/unnamed.jpg" alt="Avatar" />
+            </div>
+          </>
         )}
       </div>
     </>

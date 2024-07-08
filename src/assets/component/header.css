@@ -1,0 +1,29 @@
+.header-container{
+  top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3030;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container h1{
+  font-size: medium;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.info a{
+  text-decoration: none;
+  color: white;
+}

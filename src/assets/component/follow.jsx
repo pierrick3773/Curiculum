@@ -30,5 +30,6 @@ const Socialicons = () => {
     </div>
   );
 };
+export default Socialicons;
 
-export { Socialicons, FaGithub, FaLinkedin }; // Exporter Socialicons, FaGithub et FaLinkedin à la fin du fichier
+export { FaGithub, FaLinkedin }; // Exporter Socialicons, FaGithub et FaLinkedin à la fin du fichier

@@ -1,6 +1,7 @@
 
 import Header from './assets/component/header';
 import Socialicons from './assets/component/follow';
+import MyComponent from './assets/component/modal'
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Socialicons />
+      <MyComponent />
       <div className="background-container">
         <div className="stars"></div>
         <div className="twinkling"></div>

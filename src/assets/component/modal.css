@@ -1,0 +1,5 @@
+.modal-container{
+  z-index: 8000;
+  background-color: aqua;
+  position: relative;
+}

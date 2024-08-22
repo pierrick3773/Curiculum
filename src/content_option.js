@@ -11,7 +11,7 @@ const dataCV = [
   },
   {
     id: 3,
-    title: "Formation",
+    title: "A propos de moi",
     contenu: "Projet d'étude réalisé avec HTML et Sass. Réalisé pour travailler le principe d'animation et l'interactivité avec les utilisateurs.",
   },
   {
@@ -21,7 +21,7 @@ const dataCV = [
   },
   {
     id: 5,
-    title: "A propos de moi",
+    title: "Formation",
     contenu: "Projet d'étude réalisé avec HTML et Sass. Réalisé pour travailler le principe d'animation et l'interactivité avec les utilisateurs.",
   },
 ];

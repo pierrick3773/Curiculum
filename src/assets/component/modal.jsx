@@ -3,8 +3,7 @@ import Modal from 'react-modal';
 import './modal.css';
 import { dataCV } from '../../content_option';
 
-Modal.setAppElement('#root'); // Assurez-vous que l'élément racine de votre application est correctement défini
-
+Modal.setAppElement('#root'); 
 const MyComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -21,8 +20,12 @@ const MyComponent = () => {
 
   return (
     <div className="modal-container">
-      {dataCV.map((item) => (
-        <button key={item.id} onClick={() => openModal(item)}>
+      {dataCV.map((item, index) => (
+        <button
+          key={item.id}
+          onClick={() => openModal(item)}
+          className={`div${index + 1}`}
+        >
           {item.title}
         </button>
       ))}
@@ -36,7 +39,7 @@ const MyComponent = () => {
           <>
             <h2>{selectedItem.title}</h2>
             <p>{selectedItem.contenu}</p>
-            <button onClick={closeModal}>Close Modal</button>
+            <button onClick={closeModal}>Close</button>
           </>
         )}
       </Modal>

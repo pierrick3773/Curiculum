@@ -5,9 +5,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 80px;
-  grid-row-gap: 80px;
+  grid-row-gap: 280px;
   width: 100%;
   height: 100%;
+  justify-items: center;
 }
 
 .ReactModal__Body--open {
@@ -47,7 +48,8 @@
   overflow: hidden;
   width: 85%;
   background-color: #1a1a1a;
-  animation: float 4s ease-in-out infinite;
+  animation: float 10s ease-in-out infinite;
+  padding: 40px;
 }
 
 .div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover {

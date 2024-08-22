@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import{ useState } from 'react';
 import Modal from 'react-modal';
-import './modal.css'
+import './modal.css';
 
 Modal.setAppElement('#root'); // Assurez-vous que l'élément racine de votre application est correctement défini
 
@@ -21,6 +21,7 @@ const MyComponent = () => {
       <Modal
         isOpen={isOpen}
         onRequestClose={closeModal}
+        className="ReactModal__Content"
         contentLabel="Example Modal"
       >
         <h2>Hello</h2>

@@ -7,7 +7,9 @@ import './App.css';
 function App() {
   return (
     <>
+      
       <Header />
+      <main>
       <Socialicons />
       <MyComponent />
       <div className="background-container">
@@ -18,6 +20,10 @@ function App() {
           <img className="logo" src="/unnamed.jpg" alt="Avatar" />
         </div>
       </div>
+      </main>
+      <footer>
+        
+      </footer>
     </>
   );
 }

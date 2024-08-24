@@ -4,13 +4,13 @@ const Header = () => {
 
   return (
     <>
-      <div className="header-container">
+      <header className="header-container">
         <div className="info">
           <h1>Pierrick Viarde</h1> 
           <p >07.69.04.73.07</p>
           <a href={`mailto:${email}`}>{email}</a>
         </div>
-      </div>
+      </header>
     </>
   );
 };

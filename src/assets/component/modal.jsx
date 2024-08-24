@@ -3,7 +3,8 @@ import Modal from 'react-modal';
 import './modal.css';
 import { dataCV } from '../../content_option';
 
-Modal.setAppElement('#root'); 
+Modal.setAppElement('#root');
+
 const MyComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -32,7 +33,11 @@ const MyComponent = () => {
       <Modal
         isOpen={isOpen}
         onRequestClose={closeModal}
-        className="ReactModal__Content"
+        className={{
+          base: 'ReactModal__Content',
+          afterOpen: 'ReactModal__Content--after-open',
+          beforeClose: 'ReactModal__Content--before-close'
+        }}
         contentLabel="Example Modal"
       >
         {selectedItem && (

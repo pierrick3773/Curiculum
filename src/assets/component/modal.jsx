@@ -44,7 +44,7 @@ const MyComponent = () => {
           <>
             <h2>{selectedItem.title}</h2>
             <p>{selectedItem.contenu}</p>
-            <button onClick={closeModal}>Close</button>
+            <button className="exit-button" onClick={closeModal}>X</button>
           </>
         )}
       </Modal>

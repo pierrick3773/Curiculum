@@ -110,6 +110,8 @@
 
 .ReactModal__Content--after-open {
   opacity: 1;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .ReactModal__Content--before-close {
@@ -123,8 +125,22 @@
 
 .ReactModal__Overlay--after-open {
   opacity: 1;
+  
 }
 
 .ReactModal__Overlay--before-close {
   opacity: 0;
+}
+
+.exit-button{
+  position: fixed; /* Positionne le bouton par rapport à la fenêtre */
+    top: 0; /* Place le bouton en haut */
+    left: 0; /* Place le bouton à gauche */
+    z-index: 1000; /* Assurez-vous que le bouton est au-dessus des autres éléments */
+    margin: 10px;
+}
+
+
+.ReactModal__Content--after-open h2{
+  margin-bottom: 90px;
 }

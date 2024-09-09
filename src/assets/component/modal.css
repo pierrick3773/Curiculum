@@ -144,3 +144,9 @@
 .ReactModal__Content--after-open h2{
   margin-bottom: 90px;
 }
+
+.ReactModal__Content--after-open p {
+  font-size: x-large;
+  padding-left: 20px;
+  padding-right: 20px;
+}

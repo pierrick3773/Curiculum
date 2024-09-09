@@ -3,17 +3,17 @@ import portfolioImage from '../src/portfolio.png';
 const dataCV = [
   {
     id: 1,
-    title: "Competences",
+    title: "Compétences",
     contenu: "Projet d'étude réalisé avec HTML et Sass. Réalisé pour travailler le principe d'animation et l'interactivité avec les utilisateurs.",
   },
   {
     id: 2,
-    title: "Experiences",
+    title: "Expériences",
     contenu: "Projet d'étude réalisé avec HTML et Sass. Réalisé pour travailler le principe d'animation et l'interactivité avec les utilisateurs.",
   },
   {
     id: 3,
-    title: "A propos de moi",
+    title: "À propos de moi",
     contenu: (
       <p>
         Je suis un Développeur Web Front-End junior passionné, spécialisé dans la création d'interfaces utilisateur conviviales et réactives. J'ai de bonnes connaissances dans les technologies front-end telles que HTML, CSS, JavaScript, avec une préférence pour React.

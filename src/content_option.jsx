@@ -1,4 +1,4 @@
-import portfolioImage from '../public/portfolio.png';
+import portfolioImage from '../src/portfolio.png';
 
 const dataCV = [
   {

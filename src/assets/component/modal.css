@@ -155,3 +155,7 @@
   flex-direction: column;
 }
 
+a :hover{
+  transform: scale(1.05);
+  transition: transform 1.2s;
+}

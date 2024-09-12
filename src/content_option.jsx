@@ -1,4 +1,4 @@
-import React from 'react';
+
 import portfolioImage from '../src/portfolio.png';
 import './assets/component/formationCard.css';
 
@@ -37,7 +37,7 @@ const dataCV = [
   },
   {
     id: 4,
-    title: "Portfolio",
+    title: "Mon portfolio",
     contenu: (
       <a href="https://pierrickviarde.netlify.app/" target="_blank" rel="noopener noreferrer">
         <img className="img-portfolio" src={portfolioImage} alt="Portfolio" />
@@ -52,6 +52,7 @@ const dataCV = [
         <div className="small-cards-container">
           <FormationCard
             title="Bac ES"
+            option="Option sciences politiques"
             ville="Lycée Monge Chambery"
             date="2007"
             className="formation-card-small"

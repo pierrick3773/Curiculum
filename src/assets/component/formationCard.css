@@ -20,14 +20,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .formation-card-large {
  display: flex;
  flex-direction: column;
   align-items: center;
-  filter: drop-shadow(0 0 2em #646cffaa);
 }
 .small-cards-container {
   display: flex;

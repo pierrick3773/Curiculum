@@ -1,6 +1,6 @@
 
 import portfolioImage from '../src/portfolio.png';
-import './assets/component/formationCard.css';
+import './assets/component/formationCard.css'
 
 const FormationCard = ({ title, date, className, option, ville }) => (
   <div className={`formation-card ${className}`}>

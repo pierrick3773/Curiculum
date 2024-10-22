@@ -1,0 +1,20 @@
+.info-footer{
+  z-index: 5000;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  right: 0;
+  left: 0;
+  
+}
+
+footer{
+  z-index: 5000;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

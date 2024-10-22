@@ -2,13 +2,15 @@
 import Header from './assets/component/header';
 import Socialicons from './assets/component/follow';
 import MyComponent from './assets/component/modal'
+import Footer from './assets/component/footer'
 import './App.css';
 
 function App() {
   return (
     <>
-      
+      <header>
       <Header />
+      </header>
       <main>
       <Socialicons />
       <MyComponent />
@@ -22,7 +24,7 @@ function App() {
       </div>
       </main>
       <footer>
-        
+        <Footer/>
       </footer>
     </>
   );
